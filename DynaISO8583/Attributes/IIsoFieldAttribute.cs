@@ -1,11 +1,9 @@
 ﻿using DynaISO8583.Enums;
-using System.Reflection;
 
 namespace DynaISO8583.Attributes
 {
-	public interface IIsoField
+	public interface IIsoFieldAttribute
 	{
-		object Value { get; set; }
 
 		IsoFieldType IsoFieldTypes { get; set; }
 
@@ -23,6 +21,5 @@ namespace DynaISO8583.Attributes
 
 		EncodingTypes Encoding { get; set; }
 
-		PropertyInfo PropertyInfo { get; set; }
 	}
 }

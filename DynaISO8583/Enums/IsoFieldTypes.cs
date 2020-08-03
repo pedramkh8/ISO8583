@@ -1,10 +1,11 @@
 ﻿namespace DynaISO8583.Enums
 {
-	public enum IsoFieldTypes
+	public enum IsoFieldType
 	{
-		BITMAP = 1,
-		SECONDARYBITMAP = 2,
-		FIELD = 3,
-		SUBFIELD = 4,
+		Mti = 1,
+		BitMap = 2,
+		SecondaryBitMap = 3,
+		Field = 4,
+		SubField = 5,
 	}
 }
